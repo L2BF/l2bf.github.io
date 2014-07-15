@@ -1,0 +1,103 @@
+body {
+ margin-bottom: 150px; 
+}
+  body, h1, h2, h3, h4, h5, h6, button, .button {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 4em;
+  padding-bottom: .5em;
+}
+h3, a, a:visited {
+  color: #CB2229;
+}
+h3 {
+  padding-bottom: 1em;
+}
+h4 {
+  padding-bottom: .5em;
+}
+.container .line {
+  border-bottom: 10px solid #CB2229;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+.hero, .photos {
+  background: #222 url("../img/hero.png") 50% 50%; 
+  border-bottom: 10px solid #CB2229;
+  color: #fff;
+  margin-bottom: 1.5em; 
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.photos {
+  background: #252525;
+  border-bottom: none;
+}
+.photos .row {
+  padding-bottom: 1em;
+}
+.hero img {
+  height: auto;
+  max-width: 500px;
+  width: 100%;
+}
+.hero h1, .hero h3, .photos h3 {
+  color: #fff;
+  border: none;
+}
+.hero h3, .photos h3 {
+  letter-spacing: normal;
+}
+.hero a:hover {
+  color: #fff;
+}
+.author {
+  text-align: center;
+}
+.author img {
+  border-radius: 50%;
+  margin-bottom: 1em;
+  max-width: 175px;
+}
+.shirt img {
+  max-height: 200px;
+}
+.footer {
+  background: #CB2229;
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+.footer a, .footer a.icon:visited {
+  color: #fff;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.large {
+  font-size: 30px;
+}
+button, .button, .button:hover {
+  background: #CB2229;
+  border: 1px solid #CB2229;
+}
+a.button {
+  color: #fff;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
