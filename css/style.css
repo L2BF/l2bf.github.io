@@ -43,6 +43,11 @@ h4 {
   background: #252525;
   border-bottom: none;
 }
+.photos img {
+  margin-bottom: 1em;
+  max-width: 200px;
+  width: 100%;
+}
 .photos .row {
   padding-bottom: 1em;
 }
@@ -68,6 +73,7 @@ h4 {
   border-radius: 50%;
   margin-bottom: 1em;
   max-width: 175px;
+  width: 100%;
 }
 .shirt img {
   max-height: 200px;
@@ -82,6 +88,17 @@ h4 {
   position: fixed;
   width: 100%;
   text-align: center;
+}
+.press img {
+  max-width: 200px;
+}
+.row .event {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: .75em;
+  padding-bottom: .5em;
+}
+.event-column {
+  padding-bottom: .25em;
 }
 .footer a, .footer a.icon:visited {
   color: #fff;
